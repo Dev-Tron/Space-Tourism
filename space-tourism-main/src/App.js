@@ -10,7 +10,7 @@ import Technology from './components/technology';
 function App() {
   return (
     
-      <Router basename="/space-tourism">
+      <HashRouter basename="/space-tourism">
         <div>
           <Header />
           <Routes>
@@ -20,7 +20,7 @@ function App() {
             <Route path="technologies" element={<Technology />} />
           </Routes>
         </div>
-      </Router>
+      </HashRouter>
   );
 }
 
