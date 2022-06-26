@@ -25,7 +25,7 @@ export default function Header() {
         <header>
             <div>
                 {[false].map((expand) => (
-                    <Navbar key={expand} expand={expand} className='md-4'>
+                    <Navbar key={expand} expand={expand} className='md-4' aria-label='mobile-bar'>
                         <Container fluid >
                             <img src={logo} alt='logo-star' />
                             <Navbar.Toggle className='remove' />
@@ -53,7 +53,7 @@ export default function Header() {
                                 </Offcanvas.Body>
                             </Navbar.Offcanvas>
                             <HeaderLine/>
-                            <Navbar className='bgcolor' variant="light">
+                            <Navbar className='bgcolor' variant="light" aria-label='large-screen-bar'>
                                 <Container>
                                     <Nav className="me-auto">
                                     <LinkContainer to="/">
