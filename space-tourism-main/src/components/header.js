@@ -28,7 +28,7 @@ export default function Header() {
                     <Navbar key={expand} expand={expand} className='md-4'>
                         <Container fluid >
                             <img src={logo} alt='logo-star' />
-                            <Navbar.Toggle className='remove' aria-controls={`offcanvasNavbar-expand-${expand}`} />
+                            <Navbar.Toggle className='remove' />
                             <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
                                 aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}

@@ -6,7 +6,7 @@ import { BsCircleFill } from "react-icons/bs"
 
 const GlobalStyle = createGlobalStyle`
       body {
-        background: url("../assets/crew/background-crew-mobile.jpg");
+        background: url("./assets/crew/background-crew-mobile.jpg");
         padding: 5%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -88,7 +88,7 @@ const DivineDivide = styled.div`
     flex-direction: row;
 `
 
-const Dots = styled.nav`
+const Dots = styled.div`
     margin-bottom: 5%;
 
     @media (min-width: 768px) {

@@ -6,7 +6,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
       body {
-        background: url("../assets/destination/background-destination-mobile.jpg");
+        background: url("./assets/destination/background-destination-mobile.jpg");
         padding: 5%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -71,7 +71,7 @@ const Shift = styled.button`
     }
 `
 
-const Navigation = styled.nav`
+const Navigation = styled.div`
     margin-top: 6%;
     text-align: center;
     border: none;

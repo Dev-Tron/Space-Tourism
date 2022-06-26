@@ -5,7 +5,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
       body {
-        background: url("../assets/technology/background-technology-mobile.jpg");
+        background: url("./assets/technology/background-technology-mobile.jpg");
         padding: 5%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -100,7 +100,7 @@ const Portrait = styled.img`
         }
 `
 
-const NumberList = styled.nav`
+const NumberList = styled.div`
     margin-top: 60%;
 
     @media (min-width: 1440px) {
