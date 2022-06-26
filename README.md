@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-[![]([./screenshot.jpg](https://github.com/Dev-Tron/space-tourism/blob/main/Screen%20Shot%202022-06-26%20at%2012.54.30%20PM.png?raw=true))](https://github.com/Dev-Tron/space-tourism/blob/main/Screen%20Shot%202022-06-26%20at%2012.54.30%20PM.png?raw=true)
+https://github.com/Dev-Tron/space-tourism/blob/main/Screen%20Shot%202022-06-26%20at%2012.54.30%20PM.png?raw=true
 
 ### Links
 
