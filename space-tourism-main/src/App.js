@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/home';
 import Destinations from './components/destination';
@@ -10,7 +10,7 @@ import Technology from './components/technology';
 function App() {
   return (
     
-      <Router basename="/space-tourism">
+      <HashRouter basename="/space-tourism">
         <div>
           <Header />
           <Routes>
@@ -20,7 +20,7 @@ function App() {
             <Route path="technologies" element={<Technology />} />
           </Routes>
         </div>
-      </Router>
+      </HashRouter>
   );
 }
 
