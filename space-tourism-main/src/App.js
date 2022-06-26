@@ -10,7 +10,7 @@ import Technology from './components/technology';
 function App() {
   return (
     
-      <Router>
+      <Router basename="/space-tourism">
         <div>
           <Header />
           <Routes>
