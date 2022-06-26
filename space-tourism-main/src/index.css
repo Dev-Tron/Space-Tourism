@@ -1,0 +1,281 @@
+/* Custom CSS-Bootstrap Navbar */
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(./shared/icon-hamburger.svg);
+}
+
+.offcanvas.offcanvas-end {
+    width: 70%;
+}
+
+.offcanvas-header {
+    justify-content: flex-end;
+}
+
+.offcanvas {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2rem);
+    padding: 5%;
+}
+
+.btn-close {
+    background-image: url(./shared/icon-close.svg);
+    opacity: 1;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.offcanvas-body {
+    letter-spacing: 3px;
+    margin-top: 5%;
+    line-height: 2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bgcolor {
+    background: rgba(255, 255, 255, 0.05);
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    left: 40%;
+    letter-spacing: 3px;
+    padding-top: 3%;
+
+    font-size: large;
+    width: 67%;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding: 0 6%;
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+.navbar-expand .navbar-nav .nav-link:hover {
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar-expand .navbar-nav .nav-link:active {
+    border-color: #FFFFFF;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .remove {
+      display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-fluid {
+      position: absolute;
+    }
+}
+
+@media (max-width: 767px) {
+    .bgcolor {
+      display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .bgcolor {
+      font-size: larger;
+      padding-left: 7%;
+      left: 28%;
+      width: 77%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .bgcolor {
+      left: 39%;
+      width: 66%;
+    }
+}
+
+/* Custom CSS classes */
+
+.average {
+    font-size: 1.2rem;
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.answer {
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-family: 'Bellefair', serif;
+}
+
+.heading {
+    font-size: 1.7rem;
+    margin-left: 28%;
+    color: #FFFFFF;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.pagenumber {
+    padding-right: .5rem;
+    color: grey;
+}
+
+.destiny {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.photos {
+    height: auto;
+    width: 50%;
+    margin-top: 7%;
+}
+
+.circles {
+    width: .6em;
+}
+
+.intel {
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.6rem;
+}
+
+.name {
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    font-size: 1.7rem;
+}
+
+.show {
+    padding-right: 5%;
+}
+
+@media (min-width: 768px) {
+    .average {
+      letter-spacing: 4px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .photos {
+      width: 40%;
+    }
+}
+
+@media (min-width: 768px) {
+    .intel {
+      padding: 0 5% 10% 5%;
+      font-size: larger;
+      line-height: 2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .intel {
+      padding: 0;
+      padding-right: 11%;
+    }
+}
+
+@media (min-width: 768px) {
+    .heading {
+      margin: 0;
+      font-size: xx-large;
+      width: 80%;
+      padding-right: 23%;
+      letter-spacing: 4px;
+    }
+}
+
+@media (min-width: 768px) {
+    .flex-boy {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+        padding: 0% 1%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .flex-boy {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        margin-top: 10%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .switch-content {
+        order: 1;
+        margin-top: 4%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .switch-content {
+        position: fixed;
+        left: 55%;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .destiny {
+      margin-top: 8%;
+    }
+}
+
+@media (min-width: 768px) {
+    .name {
+      font-size: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .name {
+      font-size: 56px;
+    }
+}
+
+@media (min-width: 768px) {
+    .photos {
+      width: 75%;
+      margin-top: 3%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .photos {
+      width: 100%;
+    }
+}
+
+@media (max-width: 1439px) {
+    .number {
+      display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+    .number {
+      padding-right: 5%;
+    }
+}
